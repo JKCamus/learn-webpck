@@ -11,26 +11,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // Rule对象
-      // {
-      //   test: /\.js$/i,
-      //   use: {
-      //     loader: "my-loader01",
-      //     options: {
-      //       name: "camus",
-      //       age: "18"
-      //     }
-      //   }
-      // },
-      // {
-      //   test: /\.js$/i,
-      //   use: "my-loader02",
-      //   enforce: "pre"
-      // },
-      // {
-      //   test: /\.js$/i,
-      //   use: "my-loader03"
-      // },
       {
         test: /\.js$/i,
         use: {
